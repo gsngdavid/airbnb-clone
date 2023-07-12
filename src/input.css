@@ -4,7 +4,7 @@
 
 @layer components {
     .horizontal-space {
-        @apply px-8
+        @apply px-8 mx-auto
     }
 
     .nav-links {
@@ -16,6 +16,9 @@
     }
     .strong {
         @apply font-semibold
+    }
+    .footer-link {
+        @apply hover:underline
     }
 }
 
