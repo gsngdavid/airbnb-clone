@@ -12,7 +12,7 @@
     }
 
     .nav-container {
-        @apply flex flex-col items-center justify-between py-4
+        @apply relative flex flex-col items-center justify-between py-4
     }
     .strong {
         @apply font-semibold
