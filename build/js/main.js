@@ -11,5 +11,7 @@ document.addEventListener('scroll', e => {
 });
 
 switchBtn.addEventListener('click', e => {
-    switchBtn.firstElementChild.classList.toggle('switchOn')
+    switchBtn.firstElementChild.classList.toggle('switchOn');
+    switchBtn.classList.toggle('bg-black');
+    switchBtn.classList.toggle('bg-[#717171]');
 });
