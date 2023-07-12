@@ -1,4 +1,5 @@
 const navBar = document.getElementById('navigation');
+const switchBtn = document.getElementById('switch');
 
 document.addEventListener('scroll', e => {
     if(navBar.offsetTop > 80) {
@@ -7,4 +8,8 @@ document.addEventListener('scroll', e => {
     else {
         navBar.classList.remove('shadow-md');
     }
+});
+
+switchBtn.addEventListener('click', e => {
+    switchBtn.firstElementChild.classList.toggle('switchOn')
 });

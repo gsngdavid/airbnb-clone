@@ -20,6 +20,9 @@
     .footer-link {
         @apply hover:underline
     }
+    .switchOn {
+        @apply translate-x-4
+    }
 }
 
 @layer utilities {
