@@ -23,6 +23,9 @@
     .switchOn {
         @apply translate-x-4
     }
+    .nav-img {
+        @apply w-10 object-cover object-center
+    }
 }
 
 @layer utilities {
